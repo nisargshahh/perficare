@@ -1,0 +1,158 @@
+.lp-main{
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+
+.lp-headline{
+    font-size: 4vw;
+}
+
+.lp-dis-img{
+    width: 40vw;
+}
+
+.about-us{
+    padding: 50px;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-us p {
+    margin-top: 30px;
+    width: 60%;
+}
+
+
+.Location{
+    padding: 50px;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.lp-address {
+    margin-top: 30px;
+    width: 60%;
+}
+
+.lp-map{
+    border: none;
+    margin-top: 30px;
+    width: 70%;
+    height: 400px;
+    margin-bottom: 30px;    
+}
+
+.lp-faqs {
+    padding: 50px;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.lp-faqs h3{
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+.contact-us{
+    padding: 50px;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact-us p {
+    margin-top: 40px;
+    width: 70%;
+}
+
+.lp-cus{
+    border: none;
+    margin-top: 30px;
+    width: 70%;
+    height: 500px;
+    margin-bottom: 30px;    
+}
+
+.lp-lines{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hori-line-top{
+    border: 4px solid red;
+    width: 30%;
+}
+
+.hori-line-btm{
+    border: 4px solid green;
+    width: 30%;
+}
+
+@media screen and (max-width: 600px) {
+    .lp-main {
+      flex-direction: column;
+    }
+
+    .lp-headline{
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    .lp-dis-img{
+        margin-top: 30px;
+        width: 300px;
+    }
+
+    .about-us{
+        padding: 30px;
+        padding-top: 30px;
+    }
+    
+    .about-us p {
+        margin-top: 30px;
+        width: 80%;
+    }
+    
+    
+    .Location{
+        padding: 30px;
+        padding-top: 30px;
+    }
+    
+    .lp-address {
+        margin-top: 30px;
+        width: 80%;
+    }
+    
+    .lp-map{
+        width: 100%;
+        height: 300px;
+    }
+
+    .lp-cus{
+        width: 100%;
+        height: 600px;
+        margin-bottom: 30px;    
+    }
+
+    .contact-us p {
+        width: 100%;
+    }
+    
+}
